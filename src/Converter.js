@@ -6,3 +6,10 @@ function convertFahrenheitToCelsius(temperature) {
 
     return celsius.toFixed(1);
 }
+
+function convertCelsiusToFahrenheit(temperature) {
+
+    var fahrenheit = temperature * 1.8 + 32;
+
+    return fahrenheit.toFixed(1);
+}
