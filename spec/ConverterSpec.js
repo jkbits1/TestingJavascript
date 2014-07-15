@@ -50,9 +50,15 @@ describe("Cooking Ingredients Converter", function() {
 
         it("should convert 1 litre to 0.22 gallons", function() {
 
-            var result = convertLitresToGallons();
+            var result = convertLitresToGallons(1);
 
             expect(result).toEqual('0.22');
+        });
+        it("should convert 3 litres to 0.66 gallons", function() {
+
+            var result = convertLitresToGallons(3);
+
+            expect(result).toEqual('0.66');
         });
     });
 });
