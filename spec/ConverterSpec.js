@@ -37,5 +37,12 @@ describe("Cooking Ingredients Converter", function() {
 
             expect(result).toEqual('0.45');
         });
+
+        it("should convert 2.5lb to 1.13kg ", function() {
+
+            var result = convertPoundsToKilos(2.5);
+
+            expect(result).toEqual('1.13');
+        });
     });
 });
