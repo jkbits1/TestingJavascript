@@ -13,3 +13,10 @@ function convertCelsiusToFahrenheit(temperature) {
 
     return fahrenheit.toFixed(1);
 }
+
+function convertPoundsToKilos(pounds) {
+
+    var kilos = pounds * 0.45359237;
+
+    return kilos.toFixed(2);
+}
