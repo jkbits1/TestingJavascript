@@ -20,3 +20,10 @@ function convertPoundsToKilos(pounds) {
 
     return kilos.toFixed(2);
 }
+
+function convertLitresToGallons(litres) {
+
+    var gallons = litres * 0.22;
+
+    return gallons.toFixed(2);
+}
