@@ -29,4 +29,13 @@ describe("Cooking Ingredients Converter", function() {
       });
 
   });
+
+    describe("Weights", function() {
+        it("should convert 1lb to 0.45kg ", function() {
+
+            var result = convertPoundsToKilos(1);
+
+            expect(result).toEqual('0.45');
+        });
+    });
 });
